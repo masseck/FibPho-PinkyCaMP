@@ -2,7 +2,7 @@
 
 The purpose of this Jupyter notebook is to analyze Fiber Photometry Data recorded by a TDT system
 
-The notebook is  adapted from  Thoam Akam & Lauren Burgeno by referring to Simpson et al. 2023
+The notebook is  adapted from  Thoam Akam & Lauren Burgeno by referring to [Simpson et al. 2023](https://www.sciencedirect.com/science/article/pii/S0896627323008905)
 
 The preprocessing consists of the following steps:
 
