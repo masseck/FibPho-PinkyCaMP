@@ -16,4 +16,4 @@ The preprocessing consists of the following steps:
     
   5. Alignement to a selected event
 
-You can find an example file [example data files](docs/CONTRIBUTING.md) for a dual color recording of PinkyCaMP and sDarken attached
+You can find an [example file] (0934-241017-143128) for a dual color recording of PinkyCaMP and sDarken attached
