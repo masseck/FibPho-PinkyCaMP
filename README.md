@@ -1,4 +1,5 @@
-# FibPho-PinkyCaMP
+### Fiber Photometry data analysis for dual color recordings with a TDT System
+
 The purpose of this Jupyter notebook is to analyze Fiber Photometry Data recorded by a TDT system
 
 The notebook is  adapted from  Thoam Akam & Lauren Burgeno by referring to Simpson et al. 2023
@@ -15,4 +16,4 @@ The preprocessing consists of the following steps:
     
   5. Alignement to a selected event
 
-You can find an example file for a dual color recording of PinkyCaMP and sDarken attached
+You can find an example file [example data files](docs/CONTRIBUTING.md) for a dual color recording of PinkyCaMP and sDarken attached
