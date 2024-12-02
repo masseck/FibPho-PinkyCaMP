@@ -15,6 +15,8 @@ The preprocessing pipeline includes the following steps:
 4. Z-Scoring: The data is normalized using Z-scoring to facilitate comparisons across recordings.
 
 5. Event Alignment: Signals are aligned to selected events for further analysis.
+   
+6. Data can be are stored as a csv file
 
 An [example file](0934-241017-143128) is provided for a dual-color recording of PinkyCaMP and sDarken. 
 The recording was performed in the prelimbic area of the brain, where PinkyCaMP is expressed in pyramidal neurons and sDarken is expressed in all neurons.
