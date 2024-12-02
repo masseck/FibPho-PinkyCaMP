@@ -1,20 +1,27 @@
 ### Fiber Photometry data analysis for dual color recordings with a TDT System
 
-The purpose of this Jupyter notebook [Fiber-Photometry-Analysis-PinkyCaMP]() is to analyze Fiber Photometry Data recorded by a TDT system
+This Jupyter notebook [Fiber-Photometry-Analysis-PinkyCaMP](Fiber-Photometry-Analysis-PinkyCaMP.ipynb) is designed to analyze fiber photometry data recorded using a TDT system.
 
-The notebook is  adapted from  Thoam Akam & Lauren Burgeno by referring to [Simpson et al. 2023](https://www.sciencedirect.com/science/article/pii/S0896627323008905)
+The notebook builds on methods adapted from Thomas Akam and Lauren Burgeno, with reference to [Simpson et al. 2023](https://www.sciencedirect.com/science/article/pii/S0896627323008905)
 
-The preprocessing consists of the following steps:
+The preprocessing pipeline includes the following steps:
 
-  1. Lowpass filtering to reduce noise (10 Hz filter).
+1. Lowpass Filtering: A 10 Hz lowpass filter is applied to reduce high-frequency noise in the signals.
 
-  2. Correction for photobleaching, over time. A double exponential fit is utilized for this purpose.
-  
-  3. Movement correction by subtracting a linear fit of the movement control channel.
+2. Correction for Photobleaching: A double exponential fit is used to correct signal drift caused by photobleaching over time.
 
-  4.  Z-scoring of the data
-    
-  5. Alignement to a selected event
+3. Movement Correction: Artifacts due to movement are removed by subtracting a linear fit of the movement control channel from the signal.
 
-You can find an [example file](0934-241017-143128) for a dual color recording of PinkyCaMP and sDarken attached. 
-The recording was done in the prelimbic area. PinkyCaMP is expressed in pyramidal neurons and sDarken in all neurons.
+4. Z-Scoring: The data is normalized using Z-scoring to facilitate comparisons across recordings.
+
+5. Event Alignment: Signals are aligned to selected events for further analysis.
+
+An [example file](0934-241017-143128) is provided for a dual-color recording of PinkyCaMP and sDarken. 
+The recording was performed in the prelimbic area of the brain, where PinkyCaMP is expressed in pyramidal neurons and sDarken is expressed in all neurons.
+
+### Combining Multiple Recordings for Summary Plots and Heatmaps
+
+Building on the preprocessing and analysis, multiple fiber photometry recordings are combined to generate summary plots and heatmaps for group-level analyses. 
+
+You can find the Jupyter notebook he
+
