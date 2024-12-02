@@ -14,3 +14,5 @@ The preprocessing consists of the following steps:
   4.  Z-scoring of the data
     
   5. Alignement to a selected event
+
+You can find an example file for a dual color recording of PinkyCaMP and sDarken attached
