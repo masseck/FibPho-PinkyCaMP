@@ -23,6 +23,6 @@ The recording was performed in the prelimbic area of the brain, where PinkyCaMP 
 
 ### Combining Multiple Recordings for Summary Plots and Heatmaps
 
-Building on the preprocessing and analysis, multiple fiber photometry recordings are combined [in this Jupyter notebook](Fiber-Photometry-combined-analysis.ipynb) to generate summary plots and heatmaps for group-level analyses. 
+Building on the preprocessing and analysis, multiple fiber photometry recordings (provided as csv.files) are combined [in this Jupyter notebook](Fiber-Photometry-combined-analysis.ipynb) to generate summary plots and heatmaps for group-level analyses. 
 
 
